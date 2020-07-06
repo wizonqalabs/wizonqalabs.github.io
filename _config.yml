@@ -17,3 +17,12 @@ kramdown:
 
 include:
   - _pages
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /blogs/:title
+      layout: post

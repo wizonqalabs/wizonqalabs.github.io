@@ -1,0 +1,14 @@
+fileignoreconfig:
+- filename: assets/vendor/remixicon/remixicon.svg
+  checksum: bb491f16709c08152ddc04061edd6c27d6e5502eb7f515f92a7943e8920ef867
+  ignore_detectors: []
+- filename: assets/vendor/boxicons/css/boxicons.min.css
+  checksum: b7fc3a0d6fbf465e2e1b2f65c465875f274d0a605dace28c770bc2790146957d
+  ignore_detectors: []
+- filename: assets/vendor/boxicons/css/boxicons.css
+  checksum: 863575b6a619e8930e47e3f7496d9cf7e433916ea51b4d2c8847a0d82e96183f
+  ignore_detectors: []
+- filename: assets/vendor/icofont/icofont.min.css
+  checksum: 739ac2a532a6490a043367a412e79e8286a8cb331d7db8eb375a1ce02bf42260
+  ignore_detectors: []
+scopeconfig: []

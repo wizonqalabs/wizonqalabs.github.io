@@ -1,7 +1,7 @@
 locale: en-US
 title: 
 url: https://wizonqalabs.github.io
-baseurl: /
+# baseurl: /
 
 markdown: kramdown
 
@@ -26,3 +26,7 @@ defaults:
     values:
       permalink: /blogs/:title
       layout: post
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"

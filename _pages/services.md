@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /services
+title: Services
 ---
 
 <main id="main">

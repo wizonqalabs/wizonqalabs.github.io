@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /testimonials
+title: Testimonials
 ---
 
 <main id="main">

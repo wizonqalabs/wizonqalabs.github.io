@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /contact
+title: Contact us
 ---
 
 <main id="main">

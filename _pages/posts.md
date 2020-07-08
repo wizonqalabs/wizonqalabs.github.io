@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /blogs
+title: Blogs
 ---
 
 <main id="main">

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /teams
+title: Teams
 ---
 
 <main id="main">

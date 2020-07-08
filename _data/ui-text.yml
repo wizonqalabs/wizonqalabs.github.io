@@ -1,0 +1,6 @@
+en: &DEFAULT_EN
+  breadcrumb_home_label: Home
+  breadcrumb_separator: /
+
+en-US:
+  <<: *DEFAULT_EN

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /portfolio
+title: Portfolio
 ---
 
 <main id="main">

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /pricing
+title: Pricing
 ---
 
 <main id="main">

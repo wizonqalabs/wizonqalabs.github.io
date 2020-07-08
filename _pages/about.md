@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /about
+title: About
 ---
 
 <main id="main">

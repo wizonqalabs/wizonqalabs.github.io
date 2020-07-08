@@ -1,7 +1,50 @@
 locale: en-US
 title: Sailor
-
 url: https://wizonqalabs.github.io
+address:
+  line1: A108 Adam Street
+  line2: NY 535022
+  country: USA
+contact:
+  code: +1
+  phone: 5589 55488 55
+  email: info@example.com
+footer:
+  newsletter_msg: Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+  services:
+    - name: Web Design
+      url: "#"
+    - name: Web Development
+      url: "#"
+    - name: Product Management
+      url: "#"
+    - name: Marketing
+      url: "#"
+    - name: Graphic Design
+      url: "#"
+  social_links:
+    - name: twitter
+      url: "#"
+    - name: facebook
+      url: "#"
+    - name: instagram
+      url: "#"
+    - name: google-plus
+      class: skype
+      url: "#"
+    - name: linkedin
+      url: "#"
+  useful_links:
+    - name: Home
+      url: "/"
+    - name: About us
+      url: "/about"
+    - name: Services
+      url: "/services"
+    - name: Terms of service
+      url: "#"
+    - name: Privacy policy
+      url: "#"
 
 markdown: kramdown
 kramdown:

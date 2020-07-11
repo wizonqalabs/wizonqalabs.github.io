@@ -1,0 +1,53 @@
+teams:
+  - name: Walter White
+    img_url: /assets/img/team/team-1.jpg
+    role: Chief Executive Officer
+    description: Explicabo voluptatem mollitia et repellat
+    social_links:
+      - class: ri-twitter-fill
+        url: "#"
+      - class: ri-facebook-fill
+        url: "#"
+      - class: ri-instagram-fill
+        url: "#"
+      - class: ri-linkedin-box-fill
+        url: "#"
+  - name: Sarah Jhonson
+    img_url: /assets/img/team/team-2.jpg
+    role: Product Manager
+    description: Aut maiores voluptates amet et quis
+    social_links:
+      - class: ri-twitter-fill
+        url: "#"
+      - class: ri-facebook-fill
+        url: "#"
+      - class: ri-instagram-fill
+        url: "#"
+      - class: ri-linkedin-box-fill
+        url: "#"
+  - name: William Anderson
+    img_url: /assets/img/team/team-3.jpg
+    role: CTO
+    description: Quisquam facilis cum velit laborum corrupti
+    social_links:
+      - class: ri-twitter-fill
+        url: "#"
+      - class: ri-facebook-fill
+        url: "#"
+      - class: ri-instagram-fill
+        url: "#"
+      - class: ri-linkedin-box-fill
+        url: "#"
+  - name: Amanda Jepson
+    img_url: /assets/img/team/team-4.jpg
+    role: Accountant
+    description: Dolorum tempora officiis odit laborum officiis
+    social_links:
+      - class: ri-twitter-fill
+        url: "#"
+      - class: ri-facebook-fill
+        url: "#"
+      - class: ri-instagram-fill
+        url: "#"
+      - class: ri-linkedin-box-fill
+        url: "#"

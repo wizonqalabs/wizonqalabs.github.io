@@ -1,13 +1,7 @@
 ---
-layout: default
+layout: single
 permalink: /teams
 title: Teams
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-
-  {% include teams/team.html %}
-
-</main>
+{% include teams/team.html %}

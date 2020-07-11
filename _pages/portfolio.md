@@ -1,12 +1,7 @@
 ---
-layout: default
+layout: single
 permalink: /portfolio
 title: Portfolio
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-  {% include portfolio/portfolio.html %}
-  
-</main>
+{% include portfolio/portfolio.html %}

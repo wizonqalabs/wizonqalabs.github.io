@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: single
 permalink: /pricing
 title: Pricing
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-
-  {% include pricing/pricing.html %}
-  {% include pricing/faq.html %}
-
-</main>
+{% include pricing/pricing.html %}
+{% include pricing/faq.html %}

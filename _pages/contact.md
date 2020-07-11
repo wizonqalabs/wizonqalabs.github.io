@@ -1,12 +1,7 @@
 ---
-layout: default
+layout: single
 permalink: /contact
 title: Contact us
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-  {% include contact/contact.html %}
-  
-</main>
+{% include contact/contact.html %}

@@ -1,12 +1,7 @@
 ---
-layout: default
+layout: single
 permalink: /testimonials
 title: Testimonials
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-  {% include testimonials/testimonial.html %}
-
-</main>
+{% include testimonials/testimonial.html %}

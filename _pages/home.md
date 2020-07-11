@@ -1,5 +1,10 @@
 ---
 title: Home Page
-layout: landing
+layout: hero
 permalink: /
 ---
+
+{% include home/about.html %}
+{% include home/clients.html %}
+{% include home/services.html %}
+{% include home/portfolio.html %}

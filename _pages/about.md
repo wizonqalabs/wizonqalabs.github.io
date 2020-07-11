@@ -1,15 +1,9 @@
 ---
-layout: default
+layout: single
 permalink: /about
 title: About
 ---
 
-<main id="main">
-
-  {% include breadcrumbs.html %}
-
-  {% include about/about.html %}
-  {% include about/team.html %}
-  {% include about/skills.html %}
-
-</main>
+{% include about/about.html %}
+{% include about/team.html %}
+{% include about/skills.html %}

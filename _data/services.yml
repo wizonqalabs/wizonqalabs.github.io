@@ -1,0 +1,25 @@
+services:
+  - name: Lorem Ipsum
+    icon_class: icofont-computer
+    description: Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+    url: "#"
+  - name: Dolor Sitema
+    icon_class: icofont-chart-bar-graph
+    description: Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+    url: "#"
+  - name: Sed ut perspiciatis
+    icon_class: icofont-image
+    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+    url: "#"
+  - name: Nemo Enim
+    icon_class: icofont-settings
+    description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    url: "#"
+  - name: Magni Dolore
+    icon_class: icofont-earth
+    description: Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata
+    url: "#"
+  - name: Eiusmod Tempor
+    icon_class: icofont-tasks-alt
+    description: Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+    url: "#"

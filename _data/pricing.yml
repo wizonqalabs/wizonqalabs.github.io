@@ -1,0 +1,48 @@
+prices:
+  - price: 0
+    symbol: "$"
+    title: Free
+    featured: false
+    advance: false
+    offers:
+      - Aida dere
+      - Nec feugiat nisl
+      - Nulla at volutpat dola
+    na_offers:
+      - Pharetra massa
+      - Massa ultricies mi
+  - price: 19
+    symbol: "$"
+    title: Business
+    featured: true
+    advance: false
+    offers:
+      - Aida dere
+      - Nec feugiat nisl
+      - Nulla at volutpat dola
+      - Pharetra massa
+    na_offers:
+      - Massa ultricies mi
+  - price: 29
+    symbol: "$"
+    title: Developer
+    featured: false
+    advance: false
+    offers:
+      - Aida dere
+      - Nec feugiat nisl
+      - Nulla at volutpat dola
+      - Pharetra massa
+      - Massa ultricies mi
+  - price: "4,900"
+    symbol: "INR"
+    title: Ultimate
+    featured: false
+    advance: true
+    advance_title: Advanced
+    offers:
+      - Aida dere
+      - Nec feugiat nisl
+      - Nulla at volutpat dola
+      - Pharetra massa
+      - Massa ultricies mi

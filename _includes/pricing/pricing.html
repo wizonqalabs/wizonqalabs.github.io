@@ -2,75 +2,33 @@
   <div class="container">
 
     <div class="row">
-
-      <div class="col-lg-3 col-md-6">
-        <div class="box">
-          <h3>Free</h3>
-          <h4><sup>$</sup>0<span> / month</span></h4>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li class="na">Pharetra massa</li>
-            <li class="na">Massa ultricies mi</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
+      {% assign prices = site.data.pricing.prices %}
+      {% for price in prices %}
+        <div class="col-lg-3 col-md-6">
+          {% if price.featured == true %}
+            <div class="box featured">
+          {% else %}
+            <div class="box">
+          {% endif %}
+          {% if price.advance == true %}
+            <span class="advanced">{{ price.advance_title }}</span>
+          {% endif %}
+            <h3>{{ price.title }}</h3>
+            <h4><sup>{{ price.symbol }}</sup>{{ price.price }}<span> / month</span></h4>
+            <ul>
+              {% for offer in price.offers %}
+                <li>{{ offer}}</li>
+              {% endfor %}
+              {% for offer in price.na_offers %}
+                <li class="na">{{ offer }}</li>
+              {% endfor %}
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-        <div class="box featured">
-          <h3>Business</h3>
-          <h4><sup>$</sup>19<span> / month</span></h4>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li class="na">Massa ultricies mi</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-        <div class="box">
-          <h3>Developer</h3>
-          <h4><sup>$</sup>29<span> / month</span></h4>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li>Massa ultricies mi</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-        <div class="box">
-          <span class="advanced">Advanced</span>
-          <h3>Ultimate</h3>
-          <h4><sup>$</sup>49<span> / month</span></h4>
-          <ul>
-            <li>Aida dere</li>
-            <li>Nec feugiat nisl</li>
-            <li>Nulla at volutpat dola</li>
-            <li>Pharetra massa</li>
-            <li>Massa ultricies mi</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
 

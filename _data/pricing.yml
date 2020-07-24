@@ -1,5 +1,6 @@
 prices:
   - price: 0
+    url: "#"
     symbol: "$"
     title: Free
     featured: false
@@ -12,6 +13,7 @@ prices:
       - Pharetra massa
       - Massa ultricies mi
   - price: 19
+    url: "#"
     symbol: "$"
     title: Business
     featured: true
@@ -24,6 +26,7 @@ prices:
     na_offers:
       - Massa ultricies mi
   - price: 29
+    url: "#"
     symbol: "$"
     title: Developer
     featured: false
@@ -35,6 +38,7 @@ prices:
       - Pharetra massa
       - Massa ultricies mi
   - price: "4,900"
+    url: "#"
     symbol: "INR"
     title: Ultimate
     featured: false
